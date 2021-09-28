@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #fff;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #78A2CC;
+}
+.coloredd-section {
+  background-color: #699acc;
+}
+
+.white-section {
+  background-color: #FFF;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light';
+  font-weight: 300;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #78A2CC;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 20%;
+  position: absolute;
+}
+
+/* News Section */
+#news {
+  padding: 100px;
+}
+
+/* Tentang section */
+.tentang {
+  margin-bottom: 100px;
+  padding: 200px 0;
+}
+
+/* Dokumentasi Section */
+
+#dokumentasi {
+  padding: 100px;
+}
+
+.dokumentasi-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.dokumentasi-image {
+  width: 30%;
+  border-radius: 10%;
+  margin: 20px;
+}
+
+/* Kami Section */
+
+#kami {
+  position: relative;
+}
+
+.kami-title {
+  font-size: 1.5rem;
+}
+
+.kami-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #88aed0;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #78A2CC;
+}
+
+
+/* Footer Section */
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
